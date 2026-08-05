@@ -25,22 +25,25 @@ export const publicationsTimelineElements: TimelineItem[] = [
   },
   {
     id: 3,
-    title: "Smart Manufacturing Manuscript",
+    title:
+      "KEMMA: A Knowledge-Enhanced Multimodal Multi-Agent Framework for Training, Analysis, and Decision Support in Smart Manufacturing",
     location: "Journal of Manufacturing Systems",
     description:
-      "Manuscript on VLM-based jam material detection, OCR-to-knowledge-graph pipelines, MRAG, and digital twin systems.",
-    date: "IN PROGRESS",
+      "A knowledge-enhanced multimodal multi-agent framework combining multimodal RAG, knowledge graphs, vision-language models, and digital twins for smart manufacturing training, analysis, and decision support.",
+    date: "IN PREPARATION",
     type: "publication",
     color: "blue",
     img_path: "",
   },
   {
     id: 4,
-    title: "Remote Sensing Manuscript",
-    location: "Remote Sensing Applications: Society and Environment",
+    title:
+      "Preprocessing and Deep Learning Strategies for Internal Solitary Wave Detection in SWOT Observations",
+    location:
+      "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS)",
     description:
-      "Manuscript on time-series SST analysis, ENSO conditioning, EOFs, clustering, and spatial trend analysis.",
-    date: "IN PROGRESS",
+      "Manuscript evaluating domain-informed preprocessing, multimodal feature engineering, YOLO, and CNN-Transformer models for detecting internal solitary waves in SWOT satellite observations.",
+    date: "IN PREPARATION",
     type: "publication",
     color: "blue",
     img_path: "",
