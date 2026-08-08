@@ -8,13 +8,11 @@ function Publications() {
     <div className="flex w-screen flex-col items-center bg-zinc-100 px-4 py-24 dark:bg-zinc-900 xl:flex-row xl:justify-center xl:gap-20 xl:px-32">
       {/* Timeline */}
       <ScrollAnimation
-        className="order-2 xl:order-1"
+        className="order-2 w-full max-w-2xl xl:order-1"
         delay={200}
         translateBefore="-translate-x-1/2"
       >
-        <div className="w-full">
-          <Timeline items={publicationsTimelineElements} side="left" />
-        </div>
+        <Timeline items={publicationsTimelineElements} side="left" />
       </ScrollAnimation>
 
       {/* Text */}
