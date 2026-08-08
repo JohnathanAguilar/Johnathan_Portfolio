@@ -37,7 +37,7 @@ const schoolTimelineElements: TimelineItem[] = [
     title: "NASA JPL Summer Intern",
     location: "NASA Jet Propulsion Laboratory",
     description: "Deep learning research for SWOT sea-surface-height analysis",
-    date: "JUN 2026-AUG 2026",
+    date: "JUN 2026-SPET 2026",
     type: "research",
     color: "blue",
     img_path: "jpl.png",

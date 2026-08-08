@@ -1,6 +1,16 @@
 const newsElements = [
   {
-    id: 1,
+    id: 6,
+    month: "July 2026",
+    bullets: ["Presented my inital results from my intership at Caltech."],
+  },
+  {
+    id: 5,
+    month: "June 2026",
+    bullets: ["Statred my intership at NASA Jet Propulsion Laboratory."],
+  },
+  {
+    id: 4,
     month: "May 2026",
     bullets: [
       "Graduated from CSUN with a B.S. in Computer Science.",
@@ -8,22 +18,22 @@ const newsElements = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     month: "April 2026",
     bullets: ["Presented research at CSUNposium."],
   },
   {
-    id: 3,
+    id: 2,
     month: "March 2026",
     bullets: ["Accepted as a NASA JPL summer intern."],
   },
   {
-    id: 4,
+    id: 1,
     month: "February 2026",
     bullets: ["Presented at the USC LA Geospatial Summit."],
   },
   {
-    id: 5,
+    id: 0,
     month: "January 2026",
     bullets: [
       "Accepted to the M.S. in Computer Science program at UMass Amherst.",
