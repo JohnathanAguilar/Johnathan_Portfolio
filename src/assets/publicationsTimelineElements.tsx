@@ -29,7 +29,7 @@ export const publicationsTimelineElements: TimelineItem[] = [
       "KEMMA: A Knowledge-Enhanced Multimodal Multi-Agent Framework for Training, Analysis, and Decision Support in Smart Manufacturing",
     location: "Journal of Manufacturing Systems",
     description:
-      "A knowledge-enhanced multimodal multi-agent framework combining multimodal RAG, knowledge graphs, vision-language models, and digital twins for smart manufacturing training, analysis, and decision support.",
+      "A knowledge-enhanced multimodal multi-agent framework combining multimodal RAG, knowledge graphs, and vision-language models for smart manufacturing training, analysis, and decision support.",
     date: "IN PREPARATION",
     type: "publication",
     color: "blue",

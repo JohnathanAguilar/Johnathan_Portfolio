@@ -5,7 +5,7 @@ import { textAccentColor } from "../assets/accentColor";
 
 function Education() {
   return (
-    <div className="flex w-screen flex-col items-center justify-between px-4 py-24 xl:flex-row xl:px-32 2xl:px-150">
+    <div className="flex w-screen flex-col items-center px-4 py-24 xl:flex-row xl:justify-center xl:gap-20 xl:px-32">
       <ScrollAnimation
         className="mb-10 flex h-auto max-w-2xl flex-col items-center text-center xl:mb-0 xl:mr-10 xl:items-start xl:justify-center xl:text-start"
         delay={200}
