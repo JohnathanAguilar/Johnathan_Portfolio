@@ -1,2 +1,2 @@
-export const textAccentColor = "text-sky-600";
-export const bgAccentColor = "bg-sky-600";
+export const textAccentColor = "text-[#2774AE]";
+export const bgAccentColor = "bg-[#2774AE]";

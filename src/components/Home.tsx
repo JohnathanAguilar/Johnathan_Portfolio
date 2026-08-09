@@ -5,12 +5,15 @@ import React from "react";
 import ScrollAnimation from "./ScrollAnimation";
 import { textAccentColor } from "../assets/accentColor";
 import introduction from "../assets/introduction";
+import { bg_image } from "../assets/backgroundImage";
 
 const Home: React.FC = () => {
   return (
     <>
       <div className="relative flex font-poppins justify-center items-start md:items-center w-screen min-h-screen max-w-screen overflow-x-hidden p-4">
-        <div className="absolute inset-0 bg-[url('/bg_image.jpg')] bg-cover bg-center opacity-10"></div>
+        <div
+          className={`absolute inset-0 ${bg_image} bg-cover bg-center opacity-10`}
+        ></div>
 
         <div className="relative flex flex-col md:flex-row font-poppins justify-start md:justify-center items-center z-10 pt-20 md:pt-0">
           <ScrollAnimation delay={500} translateBefore="-translate-x-1/2">
